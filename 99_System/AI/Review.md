@@ -1,6 +1,6 @@
-# AI — Review
+# AI Review
 
-Use the Second Brain to produce an intelligence-oriented review:
+Use the Second Brain to produce an intelligence-oriented weekly review.
 
 ## What changed?
 
@@ -20,6 +20,12 @@ Surface unresolved decisions with evidence.
 
 ## What should I focus on next?
 
-Recommend priorities based on active projects, areas, constraints, and stated goals.
+Recommend the top three priorities based on active Projects, Areas, constraints, and the North Star.
 
-Do not confuse recommendation with decision. The human remains accountable for prioritization.
+## Stop / Start / Continue
+
+Recommend one or two items for each category.
+
+## Guardrail
+
+Do not create commitments automatically. Do not confuse recommendation with decision. The human remains accountable for prioritization.
