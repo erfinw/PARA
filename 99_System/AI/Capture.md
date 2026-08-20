@@ -1,12 +1,40 @@
-# AI — Capture
+# AI Capture
 
-When given a raw thought, note, transcript, or idea:
+## Purpose
+Turn raw thoughts into clean Markdown notes without losing the original meaning.
 
-1. Preserve the original intent.
-2. Extract the useful signal.
-3. Identify possible project, area, resource, or archive destination.
-4. Suggest relevant `[[wikilinks]]`.
-5. Do not silently delete meaning.
-6. If classification is uncertain, leave the note in Inbox and state the ambiguity.
+## Processing Rules
 
-Default output: concise Markdown suitable for an Obsidian note.
+1. Preserve the user's meaning.
+2. Remove obvious noise.
+3. Identify the core idea.
+4. Suggest a concise title.
+5. Suggest likely PARA destination.
+6. Suggest relevant `[[wikilinks]]`.
+7. Extract an explicit next action only when one exists.
+8. Do not invent facts.
+9. If classification is ambiguous, preserve the note in Inbox and state the ambiguity.
+
+## Output
+
+```markdown
+# Title
+
+## Thought
+
+...
+
+## PARA
+
+Project / Area / Resource / Someday-Maybe
+
+## Related
+
+- [[...]]
+
+## Next Action
+
+- ...
+```
+
+Default output should be concise Markdown suitable for an Obsidian note.
